@@ -12,6 +12,8 @@ $git --version - comando git que mostra a versao do git instalada no computador
 
 $clear - limpa a tela
 
+$cd nome da pasta - comando para entrar dentro de uma pasta
+
 $git init - inicializa um repositorio git vazio
 
 $git branch -M "main" - muda o nome da branch principal para main
@@ -41,6 +43,22 @@ $git push -u origin main - empurrao dos commits no repositorio local para o repo
 $git remote remove origin - remove a origin salva
 
 $git push - envia para o diretorio as alterações
+
+$git checkout -b "nova-branch" - cria uma nova branch e ja vai para a nova branch
+        - para enviar o arquivo no comando $git push -u origin main (alterar o main para o nome da nova-branch)
+
+$git checkout main - volta para a main principal
+
+$git merge nova-branch - mescla a branch criada para com a principal
+        - para que esse comando funcione tem-se que estar na branch ao qual se deseja mesclar, no caso a main
+
+$git clone link - link do repositorio a ser clonado no computador
+
+$git pull - atualiza o projeto que esta no computador com o do repositorio
+
+$git fork - 
+
+$git pull request - 
 
 
 
